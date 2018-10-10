@@ -10,10 +10,10 @@ emotion_mapping = {
     "Anger": "Nervous",
     "Disgust": "Nervous",
     "Fear": "Nervous",
-    "Neutral" : "Neutral",
-    "Happy" : "Happy",
-    "Surprise" : "Happy",
-    "Sad" : "Sad"
+    "Neutral": "Neutral",
+    "Happy": "Happy",
+    "Surprise": "Happy",
+    "Sad": "Sad"
 }
 
 def preprocess_input(x, v2=True):
