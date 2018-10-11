@@ -21,12 +21,12 @@ services:
         tty: true
         networks:
             mynet:
-                ipv4_address: 10.6.0.6
+                ipv4_address: ${DOCKER_API_IP}
 
 networks:
     mynet:
         driver: bridge
         ipam:
             config:
-                - subnet: 10.6.0.0/16
-                  gateway: 10.6.0.1
+                - subnet: ${DOCKER_SUBNET}
+                  gateway: ${DOCKER_GATEWAY}
